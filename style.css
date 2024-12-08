@@ -1,9 +1,18 @@
 body {
-    font-family: "Poppins", sans-serif;}
-
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+}
 
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: dimgray;
 }
 
 .highlight {
@@ -17,6 +26,84 @@ h1 {
     padding-left: 2%;
 }
 
+#dream-txt {
+    margin-left: 8.5%;
+}
+
 .half-width img {
     width: 100%;
+    padding-top: 1.5%;
+}
+
+#half-width-img {
+    width: 28%;
+    float: right;
+    padding-right: 3%;
+}
+
+#spidy-2 {
+    width: 30%;
+    margin-left: 4%;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 100px;
+}
+
+
+.top-banner {
+    background-image: url("img/top-banner.png");
+    /* border: 1px solid red; */
+    background-repeat: no-repeat;
+    /* height: 550px; */
+}
+
+
+.hire-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.dream-area {
+    background-image: url("img/dream-bg.png");
+    /* border: 1px solid black; */
+    /* height: 480px; */
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.exp-card {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+}
+
+.exp-area {
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#exp-rebon {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    background-color: white;
+}
+
+#exp-rebon-1 {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px
 }
