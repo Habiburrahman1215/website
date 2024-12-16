@@ -9,10 +9,13 @@ body {
 
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
@@ -35,7 +38,7 @@ nav a {
     color: white;
     font-size: 20px;
     font-weight: bold;
-    padding: 12px 22px;
+    padding: 18px 35px;
     border: 0px;
     border-radius: 5px;
 
